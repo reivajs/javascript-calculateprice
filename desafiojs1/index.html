@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Calculadora de Precio</title>
+</head>
+<body>
+   <div class="container d-flex flex-row justify-content-center align-items-center bg-secondary">
+    <div class="tarjeta bg-dark">
+        <div class="card" style="width: 18rem;">
+            <img src="assets/img/laptop.jpg" class="card-img-top" alt="Laptop">
+            <div class="card-body bg-dark text-light">
+              <h5 class="card-title">Laptop Gamer AMD 2700</h5>
+              <input class="numero1"type="number" placeholder="Cantidad">
+              <input class="texto1"type="text" placeholder="Color">
+              <input class="color1"type="color">
+              <p class="card-text">Precio: <span class="price">740.000</span></p>
+              <button href="#" class="btn btn-primary" onclick="calculator()">Calcular Total</button>
+            </div>
+          </div>
+    </div>
+    <div class="calculate d-flex flex-column p-4 m-4 ">
+        <div>
+            <p>Total: <span class="result">0</span></p>
+        </div>
+        <div>
+            <p>Cantidad: <span class="quantity"></span></p>
+        </div>
+        <div>
+            <p>Color: <span class="finalcolor">◯</span></p>
+        </div>
+    </div>
+
+   </div>
+   <script src="assets/js/main.js"></script>
+</body>
+</html>

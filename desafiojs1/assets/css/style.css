@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html, body, .container {
+    height: 100vh;
+}
+.calculate, .card-text, .btn{
+    font-family: 'Fredoka One', cursive;
+}
